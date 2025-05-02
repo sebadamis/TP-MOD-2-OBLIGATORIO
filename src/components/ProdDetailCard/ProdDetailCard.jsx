@@ -27,11 +27,9 @@ import BotonesDetail from '../BotonesDetail/BotonesDetail';
                                     Stock: {stock}
                                 </p>
                                 <div className="wrapper">
-                                    <span className="price" data-total-price="">
-                                        {precioFinal}
-                                    </span>
+                                    <span className="price" data-total-price="">${precioFinal}</span>
                                     <span className="badge">{descuento}%</span>
-                                    <del className="del">{precioAntes}</del>
+                                    <del className="del">${precioAntes}</del>
                                 </div>
                             
                                 <BotonesDetail/>

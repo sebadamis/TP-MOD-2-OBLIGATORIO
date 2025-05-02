@@ -146,8 +146,8 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
-    /* border: 2px rgba(128, 128, 128, 0.541) solid;
-    border-radius: 5px; */
+    border: 5px var(--shamrock-green) solid;
+    border-radius: 15px;
 }
 
 img {
