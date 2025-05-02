@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+html {
+  /* margin-top: 40px; */
+  background-color: transparent;
+}
