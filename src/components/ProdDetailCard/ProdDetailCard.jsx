@@ -30,7 +30,7 @@ import BotonesDetail from '../BotonesDetail/BotonesDetail';
                                     <span className="price" data-total-price="">
                                         {precioFinal}
                                     </span>
-                                    <span className="badge">{descuento}</span>
+                                    <span className="badge">{descuento}%</span>
                                     <del className="del">{precioAntes}</del>
                                 </div>
                             

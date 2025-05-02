@@ -1,7 +1,7 @@
 [
     {
         "titulo": "Auriculares Inalámbricos con Cancelación de Ruido",
-        "descuento": 0.20,
+        "descuento": -20,
         "precioFinal": 199.99,
         "precioAntes": 249.99,
         "stock": 55,
@@ -12,7 +12,7 @@
     },
     {
         "titulo": "Camiseta de Algodón Orgánico",
-        "descuento": 0.15,
+        "descuento": -15,
         "precioFinal": 25.49,
         "precioAntes": 29.99,
         "stock": 120,
@@ -23,7 +23,7 @@
     },
     {
         "titulo": "Botella de Agua de Acero Inoxidable",
-        "descuento": 0.25,
+        "descuento": -25,
         "precioFinal": 18.75,
         "precioAntes": 25.00,
         "stock": 80,
@@ -34,7 +34,7 @@
     },
     {
         "titulo": "Billetera de Cuero Clásica",
-        "descuento": 0.10,
+        "descuento": -10,
         "precioFinal": 44.99,
         "precioAntes": 49.99,
         "stock": 30,
@@ -45,7 +45,7 @@
     },
     {
         "titulo": "Pulsera de Actividad Inteligente",
-        "descuento": 0.30,
+        "descuento": -30,
         "precioFinal": 69.99,
         "precioAntes": 99.99,
         "stock": 40,
@@ -56,7 +56,7 @@
     },
     {
         "titulo": "Juego de Tazas de Café de Cerámica",
-        "descuento": 0.22,
+        "descuento": -22,
         "precioFinal": 23.40,
         "precioAntes": 30.00,
         "stock": 65,
@@ -67,7 +67,7 @@
     },
     {
         "titulo": "Zapatillas para Correr para Hombre",
-        "descuento": 0.18,
+        "descuento": -18,
         "precioFinal": 73.79,
         "precioAntes": 89.99,
         "stock": 90,
@@ -78,7 +78,7 @@
     },
     {
         "titulo": "Altavoz Bluetooth Portátil",
-        "descuento": 0.12,
+        "descuento": -12,
         "precioFinal": 35.19,
         "precioAntes": 39.99,
         "stock": 75,
