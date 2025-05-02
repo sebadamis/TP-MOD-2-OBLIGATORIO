@@ -22,9 +22,10 @@ import BotonesDetail from '../BotonesDetail/BotonesDetail';
                                     {titulo}
                                 </h1>
                                 <p className="product-text">
-                                    DESCRIPCION: {descripcion}
-                                    <br/>
-                                    Stock: {stock}
+                                    <span className='stock'>Stock: {stock}</span>
+                                    
+                                    <span className='description'>Descripción: </span>
+                                    {descripcion}
                                 </p>
                                 <div className="wrapper">
                                     <span className="price" data-total-price="">${precioFinal}</span>
