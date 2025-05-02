@@ -10,9 +10,9 @@ import "./Home.css";
 function Home() {
     return (
         <>
-            <div className='prod-gallery-container'>
+            <body className='prod-gallery-container'>
                 <ProdGallery/>
-            </div>
+            </body>
 
         </>
     )

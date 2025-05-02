@@ -1,6 +1,6 @@
 #content {
-    height: 100%;
-    width: 100%;
+    height: 100dvh;
+	width: 100dvw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,36 +9,22 @@
 }
 
 .loadin-msg {
-    background-color: transparent;
-    color: black;
-    height: 100%;
-    width: 100%;
-}
-
-.product-gallery {
     background-color: white;
-    color: rgb(33, 5, 94);
+    color: black;
+    height: 20%;
+    width: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 70%;
-    height: fit-content;
-    margin: 3rem auto;
-    text-align: center;
-    border-radius: 15px;
-    flex-wrap: nowrap;
-    
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
 .product-gallery__container {
     display: flex;
-    /* grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); */
     gap: 1rem;
     margin-block: 1rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
-
 

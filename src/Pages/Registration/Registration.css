@@ -1,5 +1,7 @@
 .body {
     font-family: Verdana, Geneva, sans-serif;
+    height: 100dvh;
+	width: 100dvw;
     font-size: 14px;
     background: #f2f2f2;
     margin: 0 auto;
@@ -18,7 +20,7 @@
     width: 400px;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 25px;
+    padding: 10px;
     margin: 8% auto 0;
     position: relative;
     z-index: 1;

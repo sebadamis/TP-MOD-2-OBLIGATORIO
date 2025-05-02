@@ -1,7 +1,7 @@
 
 .super-container {
-	max-height: 100dvh;
-	max-width: 100dvw;
+	height: 100dvh;
+	width: 100dvw;
     background: #22C1C3;
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     background-repeat: no-repeat;
@@ -13,7 +13,11 @@
 	flex-direction: column;
 	color: white;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
 }
+
 
 
 .titulo-sub-container{
@@ -28,7 +32,7 @@
     }
 
     .contact-form {
-        background-color: #2840b8;
+        background-color: transparent;
         padding: 0;
         color: white;
 
@@ -38,7 +42,8 @@
         }
         .form-contact {
             color: white;
-            background-color: #340aa8;
+            /* background-color: #69676d; */
+            background-color: transparent;
             padding: 1rem;
             
             background-repeat: repeat;
@@ -110,7 +115,7 @@
 
 .main-container {
     flex-direction: column;
-    background-color: rgb(55, 8, 156);
+    background-color: transparent;
 	flex-grow: 1;
 	width: 90%;
 	margin: 0 auto;
