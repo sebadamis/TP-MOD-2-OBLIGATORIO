@@ -14,7 +14,7 @@ html{
     width: 100%;
     display: flex;
 	flex-direction: row;
-    background: linear-gradient(90deg, #5b193c, #6a074c, #760060, #7d0078, #7f0095, #7900b6, #6500d9, #2c1fff);
+    background: linear-gradient(90deg, #5b193c, #6a074c, #b01193, #9c1a97, #7f0095, #6e0f9d, #54169a, #231cb0);
     
     .card-container {
         height: 100%;
