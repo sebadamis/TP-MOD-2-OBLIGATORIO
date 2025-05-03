@@ -1,6 +1,6 @@
 #content {
-    height: 100dvh;
-	width: 100dvw;
+    max-height: 100dvh;
+	max-width: 100dvw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,7 @@
 .loadin-msg {
     background-color: white;
     color: black;
-    height: 20%;
+    height: 40%;
     width: auto;
     display: flex;
     justify-content: flex-start;

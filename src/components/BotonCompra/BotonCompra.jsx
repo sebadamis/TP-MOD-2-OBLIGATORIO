@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { FaDollarSign } from 'react-icons/fa';
 import Swal from 'sweetalert2';
+import "./BotonCompra.css";
 
 const estados_disponibles = Object.freeze({
     no_comprado: "no comprado",
@@ -25,7 +27,7 @@ const BotonComprar = () => {
     let content;
 
     if (estado_boton === estados_disponibles.no_comprado) {
-        content = <button onClick={comprar}>Comprar</button>;
+        content = <button onClick={comprar}><FaDollarSign className='icon'/><span className="btn-text">Comprar</span></button>;
 
     } else if (estado_boton === estados_disponibles.cargando){
         content = <button disabled>Cargando</button>;
