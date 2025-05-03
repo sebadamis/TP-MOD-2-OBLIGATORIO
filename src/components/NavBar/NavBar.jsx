@@ -12,7 +12,7 @@ function NavBar() {
             <nav>
                 <input id="nav-toggle" type="checkbox" />
                 <div className="logo">
-                    <strong>SHOP</strong>
+                    <strong className='logo-text'>SHOP</strong>
                 </div>
                 <ul className="links">
                     <li>

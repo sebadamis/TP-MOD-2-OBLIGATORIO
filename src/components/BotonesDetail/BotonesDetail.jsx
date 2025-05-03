@@ -1,8 +1,6 @@
 import React from 'react'
 import "../ProdDetailCard/ProdDetailCard.css";
-import { FaPlus, FaMinus, FaShoppingCart } from "react-icons/fa";
-
-
+import { FaPlus, FaMinus, FaDollarSign } from "react-icons/fa";
 
 
 
@@ -36,7 +34,7 @@ import { FaPlus, FaMinus, FaShoppingCart } from "react-icons/fa";
                             </button>
                         </div>
                         <button className="cart-btn">
-                            <FaShoppingCart
+                            <FaDollarSign
                                 name="bag-handle-outline"
                                 aria-hidden="true" />
                             <span className="span">Add to cart</span>

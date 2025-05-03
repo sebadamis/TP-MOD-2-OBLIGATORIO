@@ -15,8 +15,7 @@ nav {
     font-family: "Montserrat", sans-serif;
     padding: 0 5%;
     height: 50px;
-    /* background-color: #3e65da; */
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-color: #0c205a;
 }
 nav .logo {
     float: left;
@@ -26,6 +25,9 @@ nav .logo {
     align-items: center;
     font-size: 24px;
     color: #fff;
+}
+.logo-text {
+    color: white;
 }
 nav .links {
     float: right;
