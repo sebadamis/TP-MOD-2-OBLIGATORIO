@@ -11,7 +11,7 @@ function Registration() {
                 <div className="form_wrapper">
                     <div className="form_container">
                     <div className="title_container">
-                        <h2>Responsive Registration Form</h2>
+                        <h2>Registro de Usuario</h2>
                     </div>
                     <div className="row clearfix">
                         <div className="">
@@ -59,7 +59,7 @@ function Registration() {
                                 <span>
                                     <FaUser aria-hidden="true" className="fa fa-user i" />
                                 </span>
-                                <input type="text" name="name" placeholder="First Name" />
+                                <input type="text" name="name" placeholder="Nombre" />
                                 </div>
                             </div>
                             <div className="col_half">
@@ -71,7 +71,7 @@ function Registration() {
                                 <input
                                     type="text"
                                     name="name"
-                                    placeholder="Last Name"
+                                    placeholder="Apellido"
                                     required=""
                                 />
                                 </div>
@@ -79,26 +79,25 @@ function Registration() {
                             </div>
                             <div className="input_field radio_option">
                             <input type="radio" name="radiogroup1" id="rd1" />
-                            <label htmlFor="rd1">Male</label>
+                            <label htmlFor="rd1">Hombre</label>
                             <input type="radio" name="radiogroup1" id="rd2" />
-                            <label htmlFor="rd2">Female</label>
+                            <label htmlFor="rd2">Mujer</label>
                             </div>
                             <div className="input_field select_option">
                             <select>
                                 <option>Select a country</option>
                                 <option>Argentina</option>
+                                <option>Brasil</option>
+                                <option>Chile</option>
+                                <option>Perú</option>
                                 <option>Otro</option>
                             </select>
                             <div className="select_arrow" />
                             </div>
                             <div className="input_field checkbox_option">
                             <input type="checkbox" id="cb1" />
-                            <label htmlFor="cb1">I agree with terms and conditions</label>
+                            <label htmlFor="cb1">Acepto los términos y condiciones</label>
                             </div>
-                            {/* <div className="input_field checkbox_option">
-                            <input type="checkbox" id="cb2" />
-                            <label htmlFor="cb2">I want to receive the newsletter</label>
-                            </div> */}
                             <input className="button" type="submit" defaultValue="Register" />
                         </form>
                         </div>
