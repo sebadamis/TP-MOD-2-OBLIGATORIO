@@ -18,7 +18,7 @@
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
     cursor: pointer;
-    background-image: linear-gradient(to left bottom, #446ba4, #0087b3, #009fa2, #3cb07b, #9bb956);
+    /* background-image: linear-gradient(to left bottom, #446ba4, #0087b3, #009fa2, #3cb07b, #9bb956); */
     background-repeat: no-repeat;
 }
 
@@ -61,15 +61,16 @@
 .login-box .user-box input:valid~label {
     top: -20px;
     left: 0;
-    color: #03e9f4;
-    font-size: 12px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .login-box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #03e9f4;
+    color: #1e05ad;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
