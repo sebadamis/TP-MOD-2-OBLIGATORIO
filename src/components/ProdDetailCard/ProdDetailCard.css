@@ -78,12 +78,6 @@ ion-icon {
     display: block;
 }
 
-/* .input {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: transparent;
-} */
 
 a {
     color: inherit;
@@ -119,6 +113,7 @@ body {
     font-size: 1.6rem;
     margin: 40px auto;
     padding: 20px;
+    background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
 }
 
 /*-----------------------------------*\
@@ -130,6 +125,7 @@ body {
     border: 2px rgba(128, 128, 128, 0.541) solid;
     padding: 20px;
     border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 .img-cover {

@@ -7,8 +7,8 @@ import BotonesDetail from '../BotonesDetail/BotonesDetail';
 
     return (
         <>
-            <main>
-                <article>
+            <main className='main-container-detailcard'>
+                <article className='art-detailcard-container'>
                     <section className="section product" aria-label="product">
                         <div className="container">
                             <div className="img-container">

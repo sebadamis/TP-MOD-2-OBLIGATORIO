@@ -5,18 +5,7 @@
     font-size: 14px;
     background: #f2f2f2;
     margin: 0 auto;
-    background-image: linear-gradient(
-    350deg,
-    hsl(340deg 100% 20%) 0%,
-    hsl(328deg 100% 29%) 2%,
-    hsl(306deg 100% 33%) 6%,
-    hsl(269deg 100% 50%) 13%,
-    hsl(339deg 100% 41%) 26%,
-    hsl(27deg 100% 25%) 50%,
-    hsl(81deg 46% 20%) 74%,
-    hsl(168deg 100% 19%) 87%,
-    hsl(206deg 100% 39%) 95%,
-    hsl(221deg 100% 50%) 100%);
+    background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
 }
 .clearfix:after {
     content: "";
